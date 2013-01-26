@@ -30,6 +30,9 @@ group :development, :test do
   gem 'factory_girl_rails'
   # testing framework
   gem 'rspec-rails'
+end
+
+group :test do
   # rspec matchers for active models and database
   gem 'shoulda-matchers'
 end
