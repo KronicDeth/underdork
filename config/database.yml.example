@@ -1,0 +1,22 @@
+development: &base
+  adapter: postgresql
+  database: underdork_development
+  encoding: unicode
+  password:
+  pool: 5
+  username: underdork
+
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test:
+  <<: *base
+  database: underdork_test
+  password:
+  username: underdork_test
+
+production:
+  <<: *base
+  database: underdork_production
+  password:
+  username: underdork_production

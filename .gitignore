@@ -10,8 +10,8 @@
 # Ignore Rubymine
 /.idea
 
-# Ignore the default SQLite database.
-/db/*.sqlite3
+# Ignore database configuration so passwords aren't commited 
+/config/database.yml
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
