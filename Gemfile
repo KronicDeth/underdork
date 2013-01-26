@@ -26,6 +26,8 @@ group :assets do
 end
 
 group :development, :test do
+  # factories for making models for tests
+  gem 'factory_girl_rails'
   # testing framework
   gem 'rspec-rails'
 end
