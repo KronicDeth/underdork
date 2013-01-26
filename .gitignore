@@ -13,6 +13,9 @@
 # Ignore database configuration so passwords aren't commited 
 /config/database.yml
 
+# Ignore coverage data and reports from simplecov and Rubymine
+/coverage
+
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp

@@ -35,4 +35,6 @@ end
 group :test do
   # rspec matchers for active models and database
   gem 'shoulda-matchers'
+  # code coverage measurements for specs
+  gem 'simplecov', :require => false
 end
