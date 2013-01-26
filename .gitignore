@@ -13,6 +13,9 @@
 # Ignore database configuration so passwords aren't commited 
 /config/database.yml
 
+# Ignore on-the-fly generated secret_token so it doesn't show up in github
+/config/secret_token
+
 # Ignore coverage data and reports from simplecov and Rubymine
 /coverage
 
